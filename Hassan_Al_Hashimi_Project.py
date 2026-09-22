@@ -971,7 +971,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key= "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"
+    api_key= st.secrets['key']
 )
 
 def get_llm_response(prompt):
@@ -992,12 +992,12 @@ def get_llm_response(prompt):
 
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key= st.secrets["API key for operRouter "]
+    api_key= st.secrets['key']
 )
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key= "usr-LzZDWq6FDlRdmmo4yj-pqmo1KVHuPJKvYz4sff5sTic"
+    api_key= st.secrets['key']
 )
 
 def get_llm_response(prompt):
