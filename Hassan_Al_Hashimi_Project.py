@@ -992,7 +992,7 @@ def get_llm_response(prompt):
 
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key= "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"
+    api_key= st.secrets["API key for operRouter "]
 )
 
 client = OpenAI(
