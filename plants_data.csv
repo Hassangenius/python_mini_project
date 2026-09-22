@@ -1,0 +1,5 @@
+Plant,Plant_Type,Location,Date,Watering,Fertilizing,Pruning,Repotting,Sunlight,Photo,Last_Watering,Last_Fertilizing,Last_Pruning,Last_Repotting,Growth_Date,Growth_cm
+flower,Flowering Plant,Dining room,2026-09-20,1,1,1,1,Low,plant_photos\cherrrry.png,,2026-09-20 21:03:59,,,2026-09-21,0.3
+apple,Tree,garden,2026-09-20,1,1,1,1,Medium,,,,,,,
+Pomegranate,Tree,backyard,2026-09-20,1,1,1,1,High,,,,,,,
+Lemon,Tree,Garden,2026-09-21,1,1,1,1,Medium,plant_photos\cherrrry.png,,2026-09-21 14:45:54,,,2026-09-22,1.9
